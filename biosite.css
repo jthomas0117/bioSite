@@ -14,7 +14,7 @@
 
 img {
     width: 400px;
-    height: 350px;
+    height: 400px;
 }
 
 #portrait {
@@ -33,24 +33,41 @@ figcaption {
 }
 
 
-h1, h3, figcaption {
+h1 {
     font-family: 'Merriweather', serif;
     color: #f2bf91;
     text-align: center;
     font-weight: 400;
 }
 
-.images-figs {
-    border: 1px solid #b0d1d9;
-    border-radius: 0px;
-    padding: 5px;
-    color: #3c4c59
+h3, figcaption {
+    font-family: 'Merriweather', serif;
+    color: #e99042;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+figcaption a {
+    font-family: 'Merriweather', serif;
+    color: #41a8bf;
+    text-align: center;
+    font-weight: 400;
+ }
+
+
+figcaption a:hover {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: 200;
+    text-decoration: underline overline;
 }
 
 .description {
     font-family:'Merriweather', serif;
     text-align: left;
     font-weight: 400;
+    margin-left: 5%;
 }
 
 .description-vert {
@@ -81,7 +98,7 @@ h1, h3, figcaption {
 
 #navbar a:hover {
     background-color: #b0d1d9;
-    color: #f2aa6b;
+    color: #3c4c59;
 }
 
 #bio {
@@ -90,4 +107,10 @@ h1, h3, figcaption {
     text-align: justify;
     font-weight: 400;
     margin: 2%;
+}
+
+header {
+    background-color: #3c4c59;
+    padding: 10px;
+    text-align: center;
 }
