@@ -114,3 +114,19 @@ header {
     padding: 10px;
     text-align: center;
 }
+
+footer {
+    background-color: #3c4c59;
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+    left: 0;
+}
+
+footer p {
+    color: #FFF;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
