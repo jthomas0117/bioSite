@@ -85,6 +85,8 @@ figcaption a:hover {
     overflow: hidden;
     background-color: #3c4c59;
     border-bottom: 15px solid #41a8bf;
+    border-top: 15px solid  #41a8bf;
+    
 }
 
 #navbar a {
@@ -112,7 +114,8 @@ figcaption a:hover {
 header {
     background-color: #3c4c59;
     padding: 10px;
-    text-align: center;
+    text-align: center;    
+    border-top: 15px solid  #41a8bf;
 }
 
 footer {
@@ -120,7 +123,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;   
-    left: 0;
+    left: 0;    
+    border-top: 15px solid  #41a8bf;
 }
 
 footer p {
@@ -130,3 +134,9 @@ footer p {
     font-style: italic;
     font-size: .75em;
 }
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+ }
