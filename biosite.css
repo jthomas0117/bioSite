@@ -9,7 +9,7 @@
 #image-gallery-vertical {
     margin-top: 5%;
     display: grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: auto 65%;
 }
 
 img {
@@ -78,6 +78,7 @@ figcaption a:hover {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    margin-right: 5%;
 }
 
 #navbar {
